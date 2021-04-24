@@ -7,7 +7,8 @@
   },
   "description": {
     "en": "reTerminal is powered by a Raspberry Pi Compute Module 4 (CM4) and a 5-inch IPS multi-touch screen.",
-    "ja": "Raspberry Pi Compute Module 4 (CM4) ベースの工業用IoT端末ハードウェア"
+    "ja": "Raspberry Pi Compute Module 4 (CM4) ベースの工業用IoT端末ハードウェア",
+    "zh-TW": "Raspberry Pi Compute Module 4 (CM4) 及五英吋IPS多點觸控螢幕"
   },
   "contents": [
     {
@@ -15,11 +16,13 @@
       "name": "acceleration",
       "displayName": {
         "en": "Acceleration",
-        "ja": "加速度"
+        "ja": "加速度",
+        "zh-TW": "加速度"
       },
       "description": {
         "en": "Measured acceleration.",
-        "ja": "デバイスの加速度です。"
+        "ja": "デバイスの加速度です。",
+        "zh-TW": "量測加速度"
       },
       "schema": {
         "@type": "Object",
@@ -28,11 +31,13 @@
             "name": "x",
             "displayName": {
               "en": "Acceleration X",
-              "ja": "加速度 X"
+              "ja": "加速度 X",
+              "zh-TW": "加速度 X"
             },
             "description": {
               "en": "X-axis acceleration. (g)",
-              "ja": "X軸の加速度です。（G）"
+              "ja": "X軸の加速度です。（G）",
+              "zh-TW": "X軸加速度值. (g) "
             },
             "schema": "double"
           },
@@ -40,11 +45,13 @@
             "name": "y",
             "displayName": {
               "en": "Acceleration Y",
-              "ja": "加速度 Y"
+              "ja": "加速度 Y",
+              "zh-TW": "加速度 Y"
             },
             "description": {
               "en": "Y-axis acceleration. (g)",
-              "ja": "Y軸の加速度です。（G）"
+              "ja": "Y軸の加速度です。（G）",
+              "zh-TW": "Y軸加速度值. (g) "
             },
             "schema": "double"
           },
@@ -52,11 +59,13 @@
             "name": "z",
             "displayName": {
               "en": "Acceleration Z",
-              "ja": "加速度 Z"
+              "ja": "加速度 Z",
+              "zh-TW": "加速度 Y"
             },
             "description": {
               "en": "Z-axis acceleration. (g)",
-              "ja": "Z軸の加速度です。（G）"
+              "ja": "Z軸の加速度です。（G）",
+              "zh-TW": "Z軸加速度值. (g) "
             },
             "schema": "double"
           }
@@ -72,11 +81,13 @@
       "unit": "lux",
       "displayName": {
         "en": "Ambient light",
-        "ja": "環境光"
+        "ja": "環境光",
+        "zh-TW": "環境光"
       },
       "description": {
         "en": "The measured ambient light.",
-        "ja": "デバイスの環境光です。"
+        "ja": "デバイスの環境光です。",
+        "zh-TW": "量測環境光"
       },
       "schema": "double"
     },
@@ -85,11 +96,13 @@
       "name": "f1Button",
       "displayName": {
         "en": "F1 button",
-        "ja": "F1ボタン"
+        "ja": "F1ボタン",
+        "zh-TW": "F1按鍵"
       },
       "description": {
         "en": "F1 button was pressed.",
-        "ja": "F1ボタンの押下通知です。"
+        "ja": "F1ボタンの押下通知です。",
+        "zh-TW": "F1按鍵被按壓"
       },
       "schema": "dtmi:seeedkk:reterminal:reterminal_aziot_example:ButtonPress;1"
     },
@@ -98,11 +111,13 @@
       "name": "f2Button",
       "displayName": {
         "en": "F2 button",
-        "ja": "F2ボタン"
+        "ja": "F2ボタン",
+        "zh-TW": "F2按鍵"
       },
       "description": {
         "en": "F2 button was pressed.",
-        "ja": "F2ボタンの押下通知です。"
+        "ja": "F2ボタンの押下通知です。",
+        "zh-TW": "F1按鍵被按壓"
       },
       "schema": "dtmi:seeedkk:reterminal:reterminal_aziot_example:ButtonPress;1"
     },
@@ -111,11 +126,13 @@
       "name": "f3Button",
       "displayName": {
         "en": "F3 button",
-        "ja": "F3ボタン"
+        "ja": "F3ボタン",
+        "zh-TW": "F3按鍵"
       },
       "description": {
         "en": "F3 button was pressed.",
-        "ja": "F3ボタンの押下通知です。"
+        "ja": "F3ボタンの押下通知です。",
+        "zh-TW": "F3按鍵被按壓"
       },
       "schema": "dtmi:seeedkk:reterminal:reterminal_aziot_example:ButtonPress;1"
     },
@@ -124,11 +141,13 @@
       "name": "oButton",
       "displayName": {
         "en": "O button",
-        "ja": "O ボタン"
+        "ja": "O ボタン",
+        "zh-TW": "O 按鍵"
       },
       "description": {
         "en": "O button was pressed.",
-        "ja": "O ボタンの押下通知です。"
+        "ja": "O ボタンの押下通知です。",
+        "zh-TW": "O 按鍵被按壓"
       },
       "schema": "dtmi:seeedkk:reterminal:reterminal_aziot_example:ButtonPress;1"
     },
@@ -137,22 +156,26 @@
       "name": "ringBuzzer",
       "displayName": {
         "en": "Buzz the buzzer",
-        "ja": "ブザーを鳴らす"
+        "ja": "ブザーを鳴らす",
+        "zh-TW": "蜂鳴器鳴叫"
       },
       "description": {
         "en": "Buzz a buzzer for the specified duration.",
-        "ja": "指定された期間、ブザー音を鳴らします。"
+        "ja": "指定された期間、ブザー音を鳴らします。",
+        "zh-TW": "蜂鳴器鳴叫時間設定"
       },
       "request": {
         "@type": "CommandPayload",
         "name": "duration",
         "displayName": {
           "en": "Duration",
-          "ja": "指定時間"
+          "ja": "指定時間",
+          "zh-TW": "時間設定"
         },
         "description": {
           "en": "Buzzing duration. (milliseconds)",
-          "ja": "ブザーを鳴らす期間です。（ミリ秒）"
+          "ja": "ブザーを鳴らす期間です。（ミリ秒）",
+          "zh-TW": "鳴叫時間設定. (毫秒)"
         },
         "schema": "integer"
       },
@@ -161,11 +184,13 @@
         "name": "commandResponse",
         "displayName": {
           "en": "Command Response",
-          "ja": "コマンドレスポンス"
+          "ja": "コマンドレスポンス",
+          "zh-TW": "指令執行回應"
         },
         "description": {
           "en": "Response status of buzzer command from the device.",
-          "ja": "ブザーコマンドのレスポンス"
+          "ja": "ブザーコマンドのレスポンス",
+          "zh-TW": "裝置回應-蜂鳴器時間設定指令執行"
         },
         "schema": "string"
       }
@@ -175,7 +200,8 @@
       "name": "ledStaGreen",
       "displayName": {
         "en": "State of Green Status LED",
-        "ja": "ステータスLED (緑）の状態"
+        "ja": "ステータスLED (緑）の状態",        
+        "zh-TW": "發光二極體(綠)的狀態"
       },
       "schema": "dtmi:seeedkk:reterminal:reterminal_aziot_example:LedState;1",
       "writable": true
@@ -185,7 +211,8 @@
       "name": "ledStaRed",
       "displayName": {
         "en": "State of Red Status LED",
-        "ja": "ステータスLED (赤) の状態"
+        "ja": "ステータスLED (赤) の状態",        
+        "zh-TW": "發光二極體(紅)的狀態"
       },
       "schema": "dtmi:seeedkk:reterminal:reterminal_aziot_example:LedState;1",
       "writable": true
@@ -195,7 +222,8 @@
       "name": "usrLed",
       "displayName": {
         "en": "Status of User LED",
-        "ja": "ユーザーLEDの状態"
+        "ja": "ユーザーLEDの状態",        
+        "zh-TW": "發光二極體(使用者)的狀態"
       },
       "schema": "dtmi:seeedkk:reterminal:reterminal_aziot_example:LedState;1",
       "writable": true
@@ -205,7 +233,8 @@
       "name": "firmwareVer",
       "displayName": {
         "en": "Firmware Version",
-        "ja": "ファームウェアバージョン"
+        "ja": "ファームウェアバージョン",        
+        "zh-TW": "韌體版本"
       },
       "schema": "string",
       "writable": false
@@ -219,11 +248,13 @@
       "unit": "second",
       "displayName": {
         "en": "Reporting interval",
-        "ja": "送信間隔"
+        "ja": "送信間隔",        
+        "zh-TW": "發送間隔"
       },
       "description": {
         "en": "Telemetry reporting interval ",
-        "ja": "テレメトリを送信する間隔です。"
+        "ja": "テレメトリを送信する間隔です。",        
+        "zh-TW": "遙測資料傳算間隔"
       },
       "schema": "integer",
       "writable": true
@@ -240,7 +271,8 @@
           "enumValue": "click",
           "displayName": {
             "en": "Click",
-            "ja": "クリック"
+            "ja": "クリック",        
+            "zh-TW": "點擊"
           }
         }
       ]
@@ -255,11 +287,13 @@
           "enumValue": 1,
           "displayName": {
             "en": "LED Off",
-            "ja": "LED消灯"
+            "ja": "LED消灯",        
+            "zh-TW": "關閉發光二極體"
           },
           "description": {
             "en": "LED is Off",
-            "ja": "LED は消灯中です。"
+            "ja": "LED は消灯中です。",        
+            "zh-TW": "發光二極體關閉中"
           }
         },
         {
@@ -267,11 +301,14 @@
           "enumValue": 2,
           "displayName": {
             "en": "LED On",
-            "ja": "LED点灯"
+            "ja": "LED点灯",        
+            "zh-TW": "開啟發光二極體"
           },
           "description": {
             "en": "LED is On",
-            "ja": "LED は点灯中です。"
+            "ja": "LED は点灯中です。",        
+            "zh-TW": "發光二極體開啟中"
+            
           }
         }
       ]
