@@ -1,2 +1,3 @@
 evdev
-azure-iot-device
+mj-azure-iot-pnp-device
+varname
