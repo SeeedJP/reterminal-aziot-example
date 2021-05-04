@@ -212,7 +212,6 @@ def check_environment_variables():
 
 
 async def main():
-    global device_client
     global pnp_client
 
     if not check_environment_variables():
